@@ -4,14 +4,28 @@
     </head>
     <body>
         <form>
-            <input type="number">
+            <fieldset>
+            <legend>Personal Information</legend><!--This gives the characteristic text to the fieldset -->
+            <label><b>Edad</b></label><!--Associated with forms-->
+            <input type="number" placeholder="Edad..."><!--placeholder shows a text inside the input box-->
             <br />
-            <input type="password">
+            <label>Write your password</label>
+            <input type="password" placeholder="Password">
             <br />
-            <input type="text">
+            <label>Nombre</label>
+            <input type="text" placeholder="Name">
+            <br />
             <input type="submit" value="Accept" />
+            <br />
             <textarea></textarea>
+            <br />
             <button>Accept</button>
+            <select>
+                <option value="Vegetta">Vegetta</option>
+                <option value="Goku">Goku</option><!--The value in value is for the server-->
+                <option value="Gohan">Gohan</option><!--The value inside of the option is the value that is going to appear on the website-->
+            </select>
+            </fieldset>
         </form>
     </body>
 </html>
